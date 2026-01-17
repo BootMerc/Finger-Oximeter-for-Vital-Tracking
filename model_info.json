@@ -1,0 +1,32 @@
+{
+  "features": [
+    "HR_mean",
+    "HR_std",
+    "SDNN",
+    "RMSSD",
+    "pNN50",
+    "LF_HF",
+    "SD1_SD2"
+  ],
+  "n_features": 7,
+  "n_classes": 2,
+  "class_names": [
+    "Relaxed",
+    "Stressed"
+  ],
+  "test_accuracy": 0.9978632478632479,
+  "test_auc": 0.999805172665725,
+  "cv_mean": 0.997667908415572,
+  "cv_std": 0.0025534860458710238,
+  "train_subjects": 47,
+  "test_subjects": 12,
+  "feature_importance": {
+    "HR_mean": 0.3663567304611206,
+    "LF_HF": 0.2975020110607147,
+    "RMSSD": 0.15641441941261292,
+    "SDNN": 0.07886683940887451,
+    "HR_std": 0.0644713044166565,
+    "pNN50": 0.018266841769218445,
+    "SD1_SD2": 0.01812179945409298
+  }
+}
